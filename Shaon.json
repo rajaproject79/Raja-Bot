@@ -6,19 +6,19 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "SHAON PROJECT",
-  "PREFIX": "/",
+  "BOTNAME": "𝚁𝙰𝙹𝙰",
+  "PREFIX": ".",
   "OPERATOR": [
-    "100090879572769",
+    "100088847116551",
     ""
   ],
   "ADMINBOT": [
-    "100090879572769",
+    "100088847116551",
     "",
     "",
     ""
   ],
-  "OWNER": ["100090879572769"], 
+  "OWNER": ["100088847116551"], 
   "APPROVED": [],
   "disabledcmds": [
   ],
