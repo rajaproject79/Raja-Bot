@@ -24,25 +24,23 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/qMe4oK0.jpg", "https://i.imgur.com/CpiigAY.jpg", "https://i.imgur.com/QzN6CGW.jpg", "https://i.imgur.com/ccfEyVR.jpg"];
+var link = ["https://i.imgur.com/G8SOdfc.jpeg", "https://i.imgur.com/G8SOdfc.jpeg", "https://i.imgur.com/G8SOdfc.jpeg", "https://i.imgur.com/G8SOdfc.jpeg"];
 
 var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺
 •┄┅═════❁🌺❁═════┅┄•
 
- 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : 𝐒𝐡𝐚𝐨𝐧 𝐏𝐫𝐨𝐣𝐞𝐜𝐭
+ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : 𝐑𝘈𝘑𝘈 卝 চৌধুরী
 
-𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : শাওন আহমেদ
+𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : 𝐑𝘈𝘑𝘈 卝 চৌধুরী
 
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : 𝐒𝐡𝐚𝐨𝐧 𝐀𝐡𝐦𝐞𝐝
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : 𝐑𝘈𝘑𝘈 卝 চৌধুরী
 
 •┄┅══❁CONCATET❁══┅┄• 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐝: https://www.facebook.com/Hey.Its.Me.Shaon.Ahmed
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐝: https://www.facebook.com/RAJA09638357510
 
-𝐖𝐏 𝐍𝐮𝐦𝐛𝐞𝐫 : 01814587247
+𝐖𝐏 𝐍𝐮𝐦𝐛𝐞𝐫 : 01715559179
 
-𝐒𝐞𝐚𝐫𝐜𝐡 𝐆𝐨𝐨𝐠𝐥𝐞 : শাওন আহমেদ
-
-𝐖𝐚𝐛 𝐒𝐢𝐭𝐞 𝐋𝐢𝐧𝐤 : https://linktr.ee/shaonahmed
+𝐒𝐞𝐚𝐫𝐜𝐡 𝐆𝐨𝐨𝐠𝐥𝐞 : 𝐑𝘈𝘑𝘈 卝 চৌধুরী
 
 •┄┅═════❁🌺❁═════┅┄•\n🌺✨𝐎𝐭𝐡𝐞𝐫𝐬 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺\n •┄┅═════❁🌺❁═════┅┄•
 
@@ -52,7 +50,7 @@ TYPE /admin
 
 𝐁𝐨𝐭 𝐏𝐫𝐞𝐟𝐢𝐱 : ${global.config.PREFIX}
 
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : 𝐒𝐡𝐚𝐨𝐧 𝐀𝐡𝐦𝐞𝐝
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 : 𝐑𝘈𝘑𝘈 卝 চৌধুরী
 
 •—»✨ 𝐔𝐩𝐭𝐢𝐦𝐞
 
