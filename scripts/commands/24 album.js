@@ -45,7 +45,7 @@ module.exports.handleReply = async ({
       responseType: "stream"
     })).data;
     return e.sendMessage({
-      body: `🟡${cap}\n𝚃𝙾𝚃𝙰𝙻 𝚅𝙸𝙳𝙴𝙾:${cn}\n𝙰 𝙿 𝙸  𝚂 𝙷 𝙰 𝙾 𝙽📛`,
+      body: `🟡${cap}\n𝚃𝙾𝚃𝙰𝙻 𝚅𝙸𝙳𝙴𝙾:${cn}\n𝙰 𝙿 𝙸  𝐑𝘈𝘑𝘈 卝 চৌধুরী📛`,
       attachment: nayan
     }, a.threadID, a.messageID)
   }
