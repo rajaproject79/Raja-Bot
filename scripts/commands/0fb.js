@@ -16,20 +16,20 @@ module.exports.handleEvent = async function ({ api, event }) {
   let msg = event.body ? event.body : '';
   
   const apis = await axios.get('https://raw.githubusercontent.com/shaonproject/Shaon/main/api.json')
-  const Shaon = apis.data.fb
+  const Shaon = apis.data.api
   if (msg.startsWith('https://www.facebook.com') || msg.startsWith('https://fb.watch')) {
     try {
       api.sendMessage("🔰 downloading Facebook Video please wait...", event.threadID, event.messageID);
 
       const path = __dirname + `/cache/fb_${event.threadID}_${Date.now()}.mp4`;
 
-      const res = await axios.get(`${Shaon}/api/facebook?URL=${encodeURIComponent(msg)}`);
-      if (!res.data || !res.data.HD) {
+      const res = await axios.get(`${Shaon}/fbdl?url=${encodeURIComponent(msg)}`);
+      if (!res.data || !res.data.hd) {
         api.sendMessage("Failed to retrieve video. Please check the link and try again.", event.threadID, event.messageID);
         return;
       }
 
-      const videoBuffer = (await axios.get(res.data.HD, { responseType: "arraybuffer" })).data;
+      const videoBuffer = (await axios.get(res.data.hd, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(path, Buffer.from(videoBuffer, 'binary'));
 
       api.sendMessage({
