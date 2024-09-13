@@ -4,7 +4,7 @@ const axios = require("axios");
 const path = require("path");
 
 module.exports.config = {
-  name: "bot",
+  name: "Raja",
   version: "1.0.1",
   permission: 0,
   credits: "Islamick Cyber Chat",
