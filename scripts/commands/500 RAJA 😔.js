@@ -4,7 +4,7 @@ const request = require("request");
 
 const link = [
   "https://i.imgur.com/ociGBB3.mp4",
-
+"https://i.imgur.com/dGQT8fr.mp4",
 ];
 
 module.exports.config = {
