@@ -4,7 +4,7 @@
 */
 
 module.exports.config = {
-    name: "dp11",
+    name: "i431",
     version: "2.0.0",
     hasPermssion: 0,
     credits: "DinhPhuc",
