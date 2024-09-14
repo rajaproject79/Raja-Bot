@@ -106,7 +106,7 @@ module.exports.run = async function ({ event, api, Threads, Users }) {
                 }
                 else if (logMessageData.joining_user) {
                     const name = await Users.getNameUser(logMessageData.joining_user);
-                    api.sendMessage(`[⚜️] ◤𝐂𝐚𝐥𝐥 𝐔𝐩𝐝𝐚𝐭𝐞◢ [⚜️]\n[✿︎${name}✿︎]        𝐇𝐞 𝐉𝐨𝐢𝐧𝐞𝐝 𝐓𝐡𝐞 ${(logMessageData.group_call_type == '1') ? '𝐕𝐢𝐝𝐞𝐨' : '𝐂𝐚𝐥𝐥'}.`, threadID);
+                    api.sendMessage(`[⚜️] ◤𝐂𝐚𝐥𝐥 𝐔𝐩𝐝𝐚𝐭𝐞◢ [⚜️]\n[✿︎${name}✿︎]   ${time}     𝐇𝐞 𝐉𝐨𝐢𝐧𝐞𝐝 𝐓𝐡𝐞 ${(logMessageData.group_call_type == '1') ? '𝐕𝐢𝐝𝐞𝐨' : '𝐂𝐚𝐥𝐥'}.`, threadID);
                 }
                 break;
             }
