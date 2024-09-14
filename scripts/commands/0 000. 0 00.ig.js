@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event, args }) {
     allimage.push(fs.createReadStream(__dirname + "/cache/img1.mp4"));
 
     {
-        msg += `°\n\n__${cp}\n\n🍂𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁 : 𝚂𝙷𝙰𝙾𝙽 𝙰𝙷𝙼𝙴𝙳...🌸`
+        msg += `°\n\n__${cp}\n\n🍂𝘉𝘖𝘛 𝘖𝘞𝘕𝘌𝘙:𝘙𝘈𝘑𝘈 卝 চৌধুরী .🌸`
 
     }
 
