@@ -1,7 +1,7 @@
 
 module.exports = {
   config: {
-  name: "ai",
+  name: "Raja",
   version: "1.0.0",
   permission: 0,
   credits: "Nayan",
