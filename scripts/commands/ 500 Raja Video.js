@@ -5,9 +5,9 @@ module.exports.config = {
   permssion: 0,
   credits: "Islamick Cyber Chat",
   prefix:true,
-  description: "NATURAL  VEDIO",
+  description: "Raja Video",
   category: "I C C",
-  usages: "Natural vedio",
+  usages: "Raja Video",
   cooldowns: 5,
   dependencies: {
     "request":"",
