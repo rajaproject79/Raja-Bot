@@ -2,9 +2,14 @@ const axios = require("axios");
 const fs = require("fs");
 const request = require("request");
 
-const link = [
-  "https://i.imgur.com/A41AltD.mp4",
+const link = [ 
+"https://i.imgur.com/A41AltD.mp4",
 "https://i.imgur.com/VQRVNpe.mp4",
+"https://i.imgur.com/erphv1V.mp4",
+"https://i.imgur.com/PfHYnfK.mp4",
+"https://i.imgur.com/W9EE8t9.mp4",
+"https://i.imgur.com/wto8GH6.mp4",
+"https://i.imgur.com/Sn1oKw5.mp4",
 ];
 
 module.exports.config = {
