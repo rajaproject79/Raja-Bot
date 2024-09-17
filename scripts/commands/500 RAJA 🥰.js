@@ -12,6 +12,9 @@ const link = [
 "https://i.imgur.com/wrAjwb0.mp4",
 "https://i.imgur.com/vb1hxgT.mp4",
 "https://i.imgur.com/z1adTvd.mp4",
+"https://i.imgur.com/PuQA9UY.mp4",
+"https://i.imgur.com/5Xf21eL.mp4",
+"https://i.imgur.com/KrYFlAL.mp4",
 ];
 
 module.exports.config = {
