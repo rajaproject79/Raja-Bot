@@ -8,7 +8,10 @@ const link = [
 "https://i.imgur.com/8JVrQ4a.mp4",
 "https://i.imgur.com/SmIt629.mp4",
 "https://i.imgur.com/aJroUb6.mp4",
-
+"https://i.imgur.com/uNPEago.mp4",
+"https://i.imgur.com/wrAjwb0.mp4",
+"https://i.imgur.com/vb1hxgT.mp4",
+"https://i.imgur.com/z1adTvd.mp4",
 ];
 
 module.exports.config = {
